@@ -1,0 +1,101 @@
+#content {
+	width: 100%;
+	float: left;
+}
+
+#contentcontent .ui.grid {
+	margin:0;
+}
+
+#contentcontent .ui.grid>.row .column>.header {
+	background: #cecece;
+	padding: 0.8rem;
+	vertical-align: middle;
+	margin:0;
+}
+
+#contentcontent .ui.grid>.equal.height.row {
+	border-collapse: separate;
+	border-spacing: 1rem 0;
+}
+
+#contentcontent .ui.grid .column:not(.firstcol) .ui.list {
+	margin: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+	#contentcontent .ui.stackable.grid>.row>.column {
+		padding-top :0 !important;
+	}	
+}
+
+#contentcontent .ui.grid .column {
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	padding :0;
+}
+
+#contentcontent .column.firstcol div.ui.list .item .list .content {
+	line-height: 2rem;
+}
+
+#contentcontent .column.secondcol div.ui.list .item,
+#contentcontent .column.thirdcol div.ui.list .item {
+	margin-top: 2rem;
+}
+
+#contentcontent h3.ui.header,
+#contentcontent div.ui.list .item a:not(.button),
+#contentcontent div.ui.list .item span.disabled {
+	text-transform: capitalize;
+}
+
+#contentcontent div.ui.list .item span.disabled {
+	opacity: 0.4;
+}
+
+#contentcontent div.ui.list .item .icon {
+	min-width: 1.5rem;
+	margin-right: 0.5rem;
+	
+}
+
+#contentcontent h3.ui.header .icon {
+	margin-right:0;
+	padding-right:0;
+	vertical-align: middle;
+}
+
+#contentcontent .ui.info.message .message a {
+	font-weight: bold;
+	color: #4D8796;
+}
+
+#contentcontent .ui.info.message .message a:hover {
+	color: #84B3BF;
+} 
+
+
+/*
+ * table.doDataTable jQuery dataTable
+ */
+#container table.doDataTable { width: 100% !important; }
+#container table.doDataTable tbody td { height: 2.5em; border:none; vertical-align: middle; }
+#container table.doDataTable thead th { padding-right: 5px; border-bottom: 1px solid #999; }
+#container table.doDataTable .DataTables_sort_wrapper { padding: 5px 0 5px 0; width:90%; }
+#container .dataTables_wrapper div.dataTables_paginate > a { margin:0; padding: 3px; }
+.dataTables_length,
+.dataTables_filter,
+.dataTables_paginate { padding: 5px; }
+.dataTables_info { padding: 8px 0 0 5px; }
+#container table.doDataTable .dontwrap { white-space: nowrap; }
+#container table.doDataTable tfoot th { font-weight: 100; padding: 10px 0 10px 0; text-align: center; border-top: 1px solid #999; }
+#container table.doDataTable td.actionCol,
+#container table.doDataTable td.centerAlign { text-align: center; }
+#container table.doDataTable td.actionCol a { margin-right: 10px; background-color:transparent; display: inline-block; }
+#container table.doDataTable .DataTables_sort_icon { float: right; margin-top: -20px; }
+#container table.doDataTable caption { width: 65%; margin: -25px auto 0 auto; position: relative; top: -4px; font-weight: bold;   color: #fff; }
+/*
+ * end table.doDataTable jQuery dataTable
+ */
+ 
